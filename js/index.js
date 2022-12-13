@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <td> ${e.email} </td>                     
                     <td> ${e.city} </td> 
                     <td>
-                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#ModalEditar">Modificar</button>
+                        <button type="button" class="btn btn-warnig btn-sm" data-toggle="modal" data-target="#ModalEditar">Modificar</button>
                         <button class="btn btn-sm btn-danger" id="botonBorrar">Borrar</button>
                     </td>
                 `                
@@ -38,4 +38,4 @@ document.addEventListener("DOMContentLoaded", () => {
         } */
     }
     mostrarData();
-})
+});
